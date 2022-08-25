@@ -1,0 +1,8 @@
+{
+  "extends": "chat-app.typescript-configs/backend.json",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "files": [
+    "environment.d.ts"
+  ]
+}

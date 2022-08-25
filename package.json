@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Sofus Skovgaard",
+    "email": "hello@sofusskovgaard.com",
+    "url": "https://sofusskovgaard.com"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "workspaces": [
+    "packages/*",
+    "services/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.4.3"
+  }
+}

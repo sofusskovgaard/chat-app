@@ -1,0 +1,9 @@
+{
+  "name": "chat-app.typescript-configs",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "**/*"
+  ]
+}

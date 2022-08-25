@@ -1,0 +1,31 @@
+{
+  "name": "chat-app.worker-service",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/server.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Sofus Skovgaard",
+    "email": "hello@sofusskovgaard.com",
+    "url": "https://sofusskovgaard.com"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "chat-app.utils": "*",
+    "amqplib": "^0.10.2",
+    "mongoose": "^6.5.3"
+  },
+  "devDependencies": {
+    "chat-app.typescript-configs": "*",
+    "@types/amqplib": "^0.8.2",
+    "@types/node": "^18.7.13",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
