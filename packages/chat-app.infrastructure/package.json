@@ -1,0 +1,13 @@
+{
+  "name": "chat-app.infrastructure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.2",
+    "awilix": "^7.0.3",
+    "chat-app.data": "*",
+    "chat-app.models": "*",
+    "reflect-metadata": "^0.1.13"
+  }
+}

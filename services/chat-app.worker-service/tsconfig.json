@@ -4,5 +4,9 @@
   "exclude": ["node_modules"],
   "files": [
     "environment.d.ts"
-  ]
+  ],
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+  }
 }

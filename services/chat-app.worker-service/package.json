@@ -15,14 +15,18 @@
     "dev": "nodemon src/server.ts"
   },
   "dependencies": {
-    "chat-app.utils": "*",
+    "chat-app.infrastructure": "*",
     "amqplib": "^0.10.2",
-    "mongoose": "^6.5.3"
+    "awilix": "^7.0.3",
+    "chat-app.utils": "*",
+    "mongoose": "^6.5.3",
+    "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "chat-app.typescript-configs": "*",
     "@types/amqplib": "^0.8.2",
     "@types/node": "^18.7.13",
+    "chat-app.data": "*",
+    "chat-app.typescript-configs": "*",
     "dotenv": "^16.0.1",
     "nodemon": "^2.0.19",
     "ts-node": "^10.9.1",
