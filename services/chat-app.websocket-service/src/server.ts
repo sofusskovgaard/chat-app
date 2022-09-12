@@ -28,7 +28,7 @@ io.on("connection", (socket) => {
     command.email = obj["email"]
     command.password = obj["password"]
 
-    await Container.resolve<CommandBusService>("commandBusService").send(command)
+    await Container.resolve(CommandBusService).send(command)
   }))
 });
 
