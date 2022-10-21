@@ -22,7 +22,7 @@ async function initialize_database() {
 
 initialize_database()
 
-Container.resolve<CommandHandlerService>(CommandHandlerService.name)
+Container.resolve(CommandHandlerService)
   .bootstrap(
     [CreateUserCommand, CreateUserCommandHandler]
   )
