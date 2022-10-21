@@ -10,7 +10,7 @@ const schema = async () => await buildSchema({
     RoomResolver,
     MessageResolver
   ],
-  emitSchemaFile: true
+  emitSchemaFile: true,
 })
 
 export default schema
